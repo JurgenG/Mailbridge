@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="hidden" default="0" label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="hidden" default="" 
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_CREATED_BY"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_CREATED_BY"  /> 
+
+       <field name="realname" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_REALNAME"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_REALNAME" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="unsub" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_UNSUB"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_UNSUB" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="mod" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_MOD"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_MOD" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="hide" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_HIDE"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_HIDE" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="nomail" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_NOMAIL"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_NOMAIL" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="ack" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_ACK"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_ACK" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="notmetoo" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_NOTMETOO"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_NOTMETOO" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="nodupes" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_NODUPES"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_NODUPES" 
+                
+                
+            value="1" 
+            filter="raw" /> 
+
+       <field name="digest" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_DIGEST"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_DIGEST" 
+                
+                
+            value="1"  
+            filter="raw" /> 
+
+       <field name="plain" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_PLAIN"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_PLAIN" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+       <field name="language" type="checkbox"
+                
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_LANGUAGE"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_LANGUAGE" 
+                
+                
+                
+            value="1"
+            filter="raw" /> 
+
+        <field name="state" type="hidden" default="" 
+            label="COM_MAILBRIDGE_FORM_LBL_PARAMETER_CREATED_BY"
+            description="COM_MAILBRIDGE_FORM_DESC_PARAMETER_CREATED_BY"  value="1" /> 
+<!--         <field
+        name="state"
+        type="hidden"
+        label="JSTATUS"
+        type="hidden"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+    </field> -->
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

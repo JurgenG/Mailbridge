@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="com_mailbridge/administrator"/>
+	<buildpathentry kind="src" path="com_mailbridge/site"/>
+	<buildpathentry kind="src" path="plug_cbjoomlamaillistintegration"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>

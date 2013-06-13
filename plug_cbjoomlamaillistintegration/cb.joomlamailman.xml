@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbinstall version="1.0.0" type="plugin" group="user">
+	<name>CB JOOMLA Mailman Integration</name>
+	<author>Nidhi Gupta</author>
+	<creationDate>2013-05-31</creationDate>
+	<copyright>Daffodil</copyright>
+	<license></license>
+	<authorEmail>nidhi.gupta@daffodilsw.com</authorEmail>
+	<authorUrl>www.daffodilsw.com</authorUrl>
+	<version>1.0</version>
+	<description>
+		Integation of community builder and Mailman configuration
+	</description>
+	<files>
+		<filename plugin="cb.joomlamailman">cb.joomlamailman.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<params>
+    </params>
+	<tabs>
+		<tab name="Mailman listing" description="" class="getJoomlaMenuTabs1" fields="0" position="cb_main" displaytype="tab">
+			<params>
+                   	</params>
+			<fields>
+			</fields>
+		</tab>
+      		
+	</tabs>
+	<install>
+        <queries>
+            <query>
+                UPDATE `#__comprofiler_tabs`
+                SET enabled = 0
+                WHERE pluginclass in (
+                    'getJoomlaMenuTabs2',
+                    'getJoomlaMenuTabs3')
+                AND params is NULL;
+            </query>
+        </queries>
+    </install>
+	<uninstall>
+	</uninstall>
+	<database>
+	</database>
+</cbinstall>
+
