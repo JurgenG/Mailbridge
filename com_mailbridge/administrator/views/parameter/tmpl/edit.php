@@ -2,11 +2,10 @@
 /**
  * @version     1.0.0
  * @package     com_mailbridge
- * @copyright   Copyright (C) 2013 Jurgen Gaeremyn. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- * @author      Nidhi Gupta <nidhi.gupta@daffodilsw.com> - http://www.daffodilsw.com
+ * @copyright   
+ * @license     
+ * @author      nidhi <nidhi.gupta@daffodilsw.com> - http://
  */
-
 // no direct access
 defined('_JEXEC') or die;
 
@@ -104,12 +103,6 @@ $document->addStyleSheet('components/com_mailbridge/assets/css/mailbridge.css');
 
     <input type="hidden" name="task" value="" />
     <?php echo JHtml::_('form.token'); ?>
-    <div class="clr"></div>
-
-    <style type="text/css">
-        /* Temporary fix for drifting editor fields */
-        .adminformlist li {
-            clear: both;
-        }
-    </style>
+    
+   
 </form>

@@ -10,7 +10,7 @@ root {
     display: block;
 }
 .tip{background: #CCCCFF !important; width: 300px;}
-.tip-wrap{padding: 5px; background: #333399 !important;}
+.tip-wrap{padding: 5px; background: #333399 !important; z-index: 99999;}
 .tip-title{background: #333399 !important; color: #ffffff;}
 
  .front-end-edit ul {

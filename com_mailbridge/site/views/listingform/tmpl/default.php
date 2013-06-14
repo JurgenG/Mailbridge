@@ -66,10 +66,10 @@ $lang->load('com_mailbridge', JPATH_ADMINISTRATOR);
                             <td class="key" width="25%">
                                 <label for="nomail"><?php echo JText::_('COM_MAILBRIDGE_NOMAIL_TITLE'); ?></label>
                             </td>
-                           <td width="25%">
-                                <input name="nomail" id="nomail_off" value="off" type="radio" <?php if ($this->values['nomail'] <> 'on') echo 'checked="checked"'; ?>></select>
+                            <td width="25%">
+                                <input name="nomail" id="nomail_off" value="off" type="radio" <?php if ($this->values['nomail'] <> 'on') echo 'checked="checked"'; ?> />
                                 <label for="nomail_off"><?php echo JText::_('COM_MAILBRIDGE_NOMAIL_OFF'); ?></label><br />
-                                <input name="nomail" id="nomail_on" value="on" type="radio" <?php if ($this->values['nomail'] == 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="nomail" id="nomail_on" value="on" type="radio" <?php if ($this->values['nomail'] == 'on') echo 'checked="checked"'; ?> />
                                 <label for="nomail_on"><?php echo JText::_('COM_MAILBRIDGE_NOMAIL_ON'); ?></label>
                             </td>
                             <td>
@@ -87,9 +87,9 @@ $lang->load('com_mailbridge', JPATH_ADMINISTRATOR);
                                 <label for="digest"><?php echo JText::_('COM_MAILBRIDGE_DIGEST_TITLE'); ?><br />(<?php echo $this->values['digest']; ?>)</label>
                             </td>
                             <td>
-                                <input name="digest" id="digest_off" value="off" type="radio" <?php if ($this->values['digest'] <> 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="digest" id="digest_off" value="off" type="radio" <?php if ($this->values['digest'] <> 'on') echo 'checked="checked"'; ?> />
                                 <label for="digest_off"><?php echo JText::_('COM_MAILBRIDGE_DIGEST_OFF'); ?></label><br />
-                                <input name="digest" id="digest_on" value="on" type="radio" <?php if ($this->values['digest'] == 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="digest" id="digest_on" value="on" type="radio" <?php if ($this->values['digest'] == 'on') echo 'checked="checked"'; ?> />
                                 <label for="digest_on"><?php echo JText::_('COM_MAILBRIDGE_DIGEST_ON'); ?></label>
                             </td>
                             <td>
@@ -108,9 +108,9 @@ $lang->load('com_mailbridge', JPATH_ADMINISTRATOR);
                                 <label for="plain"><?php echo JText::_('COM_MAILBRIDGE_PLAIN_TITLE'); ?><br />(<?php echo $this->values['plain']; ?>)</label>
                             </td>
                             <td>
-                                <input name="plain" id="plain_off" value="off" type="radio" <?php if ($this->values['plain'] <> 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="plain" id="plain_off" value="off" type="radio" <?php if ($this->values['plain'] <> 'on') echo 'checked="checked"'; ?> />
                                 <label for="plain_off"><?php echo JText::_('COM_MAILBRIDGE_PLAIN_OFF'); ?></label><br />
-                                <input name="plain" id="plain_on" value="on" type="radio" <?php if ($this->values['plain'] == 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="plain" id="plain_on" value="on" type="radio" <?php if ($this->values['plain'] == 'on') echo 'checked="checked"'; ?> />
                                 <label for="plain_on"><?php echo JText::_('COM_MAILBRIDGE_PLAIN_ON'); ?></label>
                             </td>
                             <td>
@@ -129,9 +129,9 @@ $lang->load('com_mailbridge', JPATH_ADMINISTRATOR);
                                 <label for="ack"><?php echo JText::_('COM_MAILBRIDGE_ACK_TITLE'); ?><br />(<?php echo $this->values['ack']; ?>)</label>
                             </td>
                             <td>
-                                <input name="ack" id="ack_off" value="off" type="radio" <?php if ($this->values['ack'] <> 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="ack" id="ack_off" value="off" type="radio" <?php if ($this->values['ack'] <> 'on') echo 'checked="checked"'; ?>>
                                 <label for="ack_off"><?php echo JText::_('COM_MAILBRIDGE_ACK_OFF'); ?></label><br />
-                                <input name="ack" id="ack_on" value="on" type="radio" <?php if ($this->values['ack'] == 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="ack" id="ack_on" value="on" type="radio" <?php if ($this->values['ack'] == 'on') echo 'checked="checked"'; ?>>
                                 <label for="ack_on"><?php echo JText::_('COM_MAILBRIDGE_ACK_ON'); ?></label>
                             </td>
                             <td>
@@ -149,9 +149,9 @@ $lang->load('com_mailbridge', JPATH_ADMINISTRATOR);
                                 <label for="notmetoo"><?php echo JText::_('COM_MAILBRIDGE_NOTMETOO_TITLE'); ?><br />(<?php echo $this->values['notmetoo']; ?>)</label>
                             </td>
                             <td>
-                                <input name="notmetoo" id="notmetoo_off" value="off" type="radio" <?php if ($this->values['notmetoo'] <> 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="notmetoo" id="notmetoo_off" value="off" type="radio" <?php if ($this->values['notmetoo'] <> 'on') echo 'checked="checked"'; ?> />
                                 <label for="notmetoo_off"><?php echo JText::_('COM_MAILBRIDGE_NOTMETOO_OFF'); ?></label><br />
-                                <input name="notmetoo" id="notmetoo_on" value="on" type="radio" <?php if ($this->values['notmetoo'] == 'on') echo 'checked="checked"'; ?>></select>
+                                <input name="notmetoo" id="notmetoo_on" value="on" type="radio" <?php if ($this->values['notmetoo'] == 'on') echo 'checked="checked"'; ?> />
                                 <label for="notmetoo_on"><?php echo JText::_('COM_MAILBRIDGE_NOTMETOO_ON'); ?></label>
                             </td>
                             <td>

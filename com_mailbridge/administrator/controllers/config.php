@@ -1,11 +1,11 @@
 <?php
 
 /**
- * @version     1.0.0
- * @package     com_mailbridge
- * @copyright   Copyright (C) 2013 Jurgen Gaeremyn. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- * @author      Nidhi Gupta <nidhi.gupta@daffodilsw.com> - http://www.daffodilsw.com
+ * @version	2.5
+ * @package	Mailbridge
+ * @author 	Daffodil software ltd.
+ * @link 	http://www.daffodilsw.com
+
  */
 defined('_JEXEC') or die('Restricted access');
 
@@ -20,7 +20,7 @@ class MailbridgeControllerConfig extends JController {
     }
 
     /**
-     * method to save the config
+     * Method to save the configuration of Mailbridge
      */
     function save() {
 
@@ -34,7 +34,8 @@ class MailbridgeControllerConfig extends JController {
         $row->bind($post);
         
         if (!$row->store()) {
-            die('nidhi');
+           
+		$this->setError('Unable to save data');
         }
         $this->setRedirect("index.php?option=com_mailbridge&view=config");
     }

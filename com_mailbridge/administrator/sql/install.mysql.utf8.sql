@@ -18,10 +18,10 @@ CREATE TABLE IF NOT EXISTS `#__mailbridge_parameters` (
 `plain` VARCHAR(255)  NOT NULL ,
 `language` VARCHAR(255)  NOT NULL ,
 PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;;
+) DEFAULT COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `jom_mailbridge_parameters`
+-- Dumping data for table `#__mailbridge_parameters`
 --
 
 INSERT INTO `#__mailbridge_parameters` (`id`, `ordering`, `state`, `checked_out`, `checked_out_time`, `created_by`, `realname`, `unsub`, `mod`, `hide`, `nomail`, `ack`, `notmetoo`, `nodupes`, `digest`, `plain`, `language`) VALUES
@@ -42,9 +42,9 @@ CREATE TABLE IF NOT EXISTS `#__mailbridge_config` (
   `send_notification` tinyint(1) NOT NULL DEFAULT '0',
   `invitation` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
+) DEFAULT COLLATE=utf8_general_ci;
 --
 
 INSERT INTO `#__mailbridge_config` (`id`, `ordering`, `state`, `checked_out`, `checked_out_time`, `created_by`, `list_url`, `list_name`, `list_password`, `send_welcome_message`, `send_notification`, `invitation`) VALUES
-(18, 0, 1, 0, '0000-00-00 00:00:00', 0, 'http://url.com/mailman/admin/', 'username', 'password', 0, 0, 0);
+(18, 0, 1, 0, '0000-00-00 00:00:00', 0, 'http://lists.preken.be/mailman/admin/', 'daffodil', 'daisy', 0, 0, 0);
 
