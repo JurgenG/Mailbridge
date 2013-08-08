@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="2.5.0" method="upgrade">
     <name>com_mailbridge</name>
+    <author>Jurgen Gaeremyn</author>
     <creationDate>2013-05-31</creationDate>
-    <copyright></copyright>
-    <license></license>
-    <author>nidhi</author>
-    <authorEmail>nidhi.gupta@daffodilsw.com</authorEmail>
-    <authorUrl>http://</authorUrl>
-    <version>1.0.0</version>
-    <description>mailbridge</description>
+    <copyright>(C) 2005 - 2013 Jurgen Gaeremyn. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see gpl-2.0.txt</license>
+    <authorEmail>jurgen.gaeremyn@pandora.be</authorEmail>
+    <authorUrl>http://www.mailbridge.be</authorUrl>
+    <version>1.0.1</version>
+    <description>Component to connect Joomla with a mailman account</description>
     
     <install> <!-- Runs on install -->
         <sql>
